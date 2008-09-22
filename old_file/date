@@ -1,0 +1,13 @@
+
+( $secondes, $minutes, $heures, $jour_mois, $mois, $an, $jour_semaine, $jour_calendaire, $heure_ete ) = localtime ();
+
+$mois += 1;
+$an += 1900;
+
+sub test {
+	$test = "2";
+}
+
+#$test = "2";
+
+1;
